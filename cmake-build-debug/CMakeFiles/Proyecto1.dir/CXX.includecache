@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/IMaquinaAdministradora.h
+Librerias.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Librerias.h
+Producto.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Producto.h
+
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/IMaquinaVendedora.h
+Librerias.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Librerias.h
+
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Librerias.h
+iostream
+-
+sstream
+-
+
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Maquina.cpp
+Maquina.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Maquina.h
+
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Maquina.h
+Librerias.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Librerias.h
+Producto.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Producto.h
+MonederoElectronico.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/MonederoElectronico.h
+IMaquinaAdministradora.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/IMaquinaAdministradora.h
+IMaquinaVendedora.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/IMaquinaVendedora.h
+
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/MonederoElectronico.h
+Librerias.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Librerias.h
+
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Producto.h
+Librerias.h
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/Librerias.h
+

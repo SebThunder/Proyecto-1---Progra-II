@@ -1,0 +1,3 @@
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/cmake-build-debug/CMakeFiles/Proyecto1.dir
+/cygdrive/f/Universidad/VI Semestre/Progra II/Proyecto1/cmake-build-debug/CMakeFiles/edit_cache.dir
