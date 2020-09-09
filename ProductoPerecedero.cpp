@@ -1,8 +1,8 @@
 
 #include "ProductoPerecedero.h"
 
-ProductoPerecedero::ProductoPerecedero(string _nombre, float _precio, int _cantidad):
-Producto(_nombre,_precio,_cantidad) {
+ProductoPerecedero::ProductoPerecedero(string _nombre, float _precio, int _cantidad, Fecha* _fechaVencimiento):
+Producto(_nombre,_precio,_cantidad), fechaVencimiento(_fechaVencimiento) {
 }
 ProductoPerecedero::~ProductoPerecedero() {
 
@@ -17,6 +17,9 @@ void ProductoPerecedero::setPrecio(float _precio) {
 void ProductoPerecedero::setCantidad(int _cantidad) {
     Producto::setCantidad(_cantidad);
 }
+void ProductoPerecedero::setFecha(Fecha *_fechaVencimiento) {
+    fechaVencimiento=_fechaVencimiento;
+}
 
 string ProductoPerecedero::getNombre() {
     return Producto::getNombre();
@@ -30,6 +33,9 @@ float ProductoPerecedero::getPrecio() {
 }
 int ProductoPerecedero::getCantidad() {
     return Producto::getCantidad();
+}
+Fecha* ProductoPerecedero::getFecha() {
+    return fechaVencimiento;
 }
 //Métodos de cálculo
 string ProductoPerecedero::toString() {

@@ -3,7 +3,7 @@
 // Integrantes:
 // -Sebastián Montero Vincenzi
 // -María Fernanda Robles Calvo
-// -Gabriel Barrantes Bolaños
+// -Hilary Granados Álvarez
 //
 
 #ifndef PROYECTO1_PRODUCTO_H

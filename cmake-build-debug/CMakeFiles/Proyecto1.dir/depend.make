@@ -34,6 +34,7 @@ CMakeFiles/Proyecto1.dir/ProductoNoPerecedero.cpp.o: ../Producto.h
 CMakeFiles/Proyecto1.dir/ProductoNoPerecedero.cpp.o: ../ProductoNoPerecedero.cpp
 CMakeFiles/Proyecto1.dir/ProductoNoPerecedero.cpp.o: ../ProductoNoPerecedero.h
 
+CMakeFiles/Proyecto1.dir/ProductoPerecedero.cpp.o: ../Fecha.h
 CMakeFiles/Proyecto1.dir/ProductoPerecedero.cpp.o: ../Librerias.h
 CMakeFiles/Proyecto1.dir/ProductoPerecedero.cpp.o: ../Producto.h
 CMakeFiles/Proyecto1.dir/ProductoPerecedero.cpp.o: ../ProductoPerecedero.cpp

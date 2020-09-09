@@ -3,7 +3,7 @@
 // Integrantes:
 // -Sebastián Montero Vincenzi
 // -María Fernanda Robles Calvo
-// -Gabriel Barrantes Bolaños
+// -Hilary Granados Álvarez
 //
 
 #ifndef PROYECTO1_PRODUCTOPERECEDERO_H
@@ -11,20 +11,23 @@
 
 #include "Librerias.h"
 #include "Producto.h"
+#include "Fecha.h"
 
 class ProductoPerecedero: public Producto {
 private:
-//  fecha fechaVencimiento;
+    Fecha* fechaVencimiento;
 public:
-    ProductoPerecedero(string,float,int);
+    ProductoPerecedero(string,float,int,Fecha*);
     ~ProductoPerecedero();
     //Sets y Gets
     void setNombre(string);
     void setPrecio(float);
     void setCantidad(int);
+    void setFecha(Fecha*);
     string getNombre();
     float getPrecio();
     int getCantidad();
+    Fecha* getFecha();
     //Métodos de cálculo
     string toString();
 };

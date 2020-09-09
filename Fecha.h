@@ -3,7 +3,7 @@
 // Integrantes:
 // -Sebastián Montero Vincenzi
 // -María Fernanda Robles Calvo
-// -Gabriel Barrantes Bolaños
+// -Hilary Granados Álvarez
 //
 
 #ifndef PROYECTO1_FECHA_H
@@ -15,7 +15,7 @@ class Fecha {
 private:
     int dias;
     int meses;
-    int ***matriz;
+    int anno;
 public:
     Fecha();
     ~Fecha();
